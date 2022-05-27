@@ -1,3 +1,5 @@
+package Second;
+
 import java.util.Objects;
 
 public class Device implements Comparable<Device> {
@@ -60,7 +62,7 @@ public class Device implements Comparable<Device> {
 
     @Override
     public String toString() {
-        return "Device{" +
+        return "Second.Device{" +
                 "serialNumber=" + serialNumber +
                 ", brand='" + brand + '\'' +
                 ", info='" + info + '\'' +

@@ -1,3 +1,4 @@
+package Second;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Main {
         List<Device> devices = new ArrayList<>(Arrays.asList(device, device1, device2, device3));
 
 //        Task 1
-//        List<Device> devices = new ArrayList<>(Arrays.asList(device, device1, device2, device3));
+//        List<Second.Device> devices = new ArrayList<>(Arrays.asList(device, device1, device2, device3));
 //        System.out.println(devices);
 
 //        Task 2
@@ -42,12 +43,12 @@ public class Main {
 //        devices.stream().filter(deviceX -> deviceX.getPrice()<=800).filter(devicex->devicex.getSerialNumber()).
 
 //         Task 6
-//        Device max = devices.stream().max(Comparator.comparing(Device::getPrice)).orElseThrow(NullPointerException::new);
+//        Second.Device max = devices.stream().max(Comparator.comparing(Second.Device::getPrice)).orElseThrow(NullPointerException::new);
 //        System.out.println(max);
     }
 //    For 3 task
-//    private static void show(List<Device> devices) {
-//        for (Device device4 : devices) {
+//    private static void show(List<Second.Device> devices) {
+//        for (Second.Device device4 : devices) {
 //            System.out.println(device4);
 //        }
 //    }

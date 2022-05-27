@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
         Device device = new Device(123456, "LG", "Television M156", 800);
         Device device1 = new Device(759603, "Apple", "iPhone 11 Pro Max", 1200);
         Device device2 = new Device(756662, "Samsung", "A50 smartphone", 450);
@@ -35,7 +36,7 @@ public class Main {
 //        show(devices);
 
 //         Task 4
-//        devices.stream().filter(deviceX -> deviceX.getPrice()>=400).forEach(System.out::println);
+        devices.stream().filter(deviceX -> deviceX.getPrice()>=400).forEach(System.out::println);
 
 //         Task 5 Ne znav yak nayty 0 in Serial Number
 //        devices.stream().filter(deviceX -> deviceX.getPrice()<=800).filter(devicex->devicex.getSerialNumber()).
@@ -44,6 +45,7 @@ public class Main {
 //        Device max = devices.stream().max(Comparator.comparing(Device::getPrice)).orElseThrow(NullPointerException::new);
 //        System.out.println(max);
     }
+//    For 3 task
 //    private static void show(List<Device> devices) {
 //        for (Device device4 : devices) {
 //            System.out.println(device4);
